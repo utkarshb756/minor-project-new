@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link rel="stylesheet" href="css/attendance.css">
+
+</head>
+<body>
+
+     
+    
+
+   
+  <div className="container">
+   
+
+
+    <section className="main">
+      
+        <h1>Attendance</h1>
+
+      
+
+      <section className="attendance">
+        <div className="attendance-list">
+        
+          <table className="table">
+            <thead>
+              <tr>
+                <th>S.no</th>
+                <th>Subject</th>
+                <th>Present</th>
+                <th>Absent</th>
+                <th>Total</th>
+
+
+
+               
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>Hindi</td>
+               
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+
+               
+               
+              </tr>
+           
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+  <script>
+  
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+      arrow[i].addEventListener("click", (e)=>{
+     let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+     arrowParent.classNameList.toggle("showMenu");
+      });
+    }
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".bx-menu");
+    console.log(sidebarBtn);
+    sidebarBtn.addEventListener("click", ()=>{
+      sidebar.classNameList.toggle("close");
+    });
+    </script>
+<script></script>
+</body>
+</html>

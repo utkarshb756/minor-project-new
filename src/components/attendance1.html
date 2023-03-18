@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/attendance1.css">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+     <script
+     src="https://kit.fontawesome.com/3e0ba4391f.js"
+     crossorigin="anonymous"
+   ></script>
+</head>
+<body>
+    <div className="sidebar close">
+        <div className="logo-details">
+      
+          <img src="./images/logo2.png" width="50px" style="margin-left: 15px;" height="50px" alt="">
+          <span className="logo_name">SkoolForce</span>
+        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="home.html">
+              <i  ><lord-icon
+                src="https://cdn.lordicon.com/osuxyevn.json"
+                trigger="hover"
+                colors="primary:#ffffff"
+                state="hover-1"
+                style="width:20px;height:20px">
+            </lord-icon></i>
+              <span className="link_name">Dashboard</span>
+            </a>
+            <ul className="sub-menu blank">
+              <li><a className="link_name" href="home.html">Dashboard</a></li>
+            </ul>
+          </li>
+          <li>
+            <div className="iocn-link">
+              <a href="#">
+                <i  ><lord-icon
+                  src="https://cdn.lordicon.com/zqxjldws.json"
+                  trigger="morph"
+                  colors="primary:#ffffff"
+                  state="morph-cash-card-1"
+                  style="width:20px;height:20px">
+              </lord-icon></i>
+                <span className="link_name">Finance</span>
+              </a>
+              <i className='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul className="sub-menu">
+              <li><a className="link_name" href="#">Finance</a></li>
+              <li><a href="#">Pending Payment</a></li>
+              <li><a href="#">Previous Payments</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <div className="iocn-link">
+              <a href="#">
+                <i><lord-icon
+                  src="https://cdn.lordicon.com/kipaqhoz.json"
+                  trigger="morph"  colors="primary:#ffffff"
+                  style="width:20px;height:20px">
+              </lord-icon></i>
+                <span className="link_name">Academics</span>
+              </a>
+              <i className='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul className="sub-menu">
+              <li><a className="link_name" href="#">Academics</a></li>
+              <li><a href="attendance.html">Attendance</a></li>
+              <li><a href="#">Syllabus</a></li>
+              <li><a href="#">className Time Table</a></li>
+              <li><a href="#">Study Material</a></li>
+            </ul>
+          </li>
+          <li>
+            
+          <li>
+            <div className="iocn-link">
+              <a href="#">
+                <i><lord-icon
+                  src="https://cdn.lordicon.com/kulwmpzs.json"
+                  trigger="morph"  colors="primary:#ffffff"
+                  style="width:20px;height:20px">
+              </lord-icon></i>
+                <span className="link_name">Exams</span>
+              </a>
+              <i className='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul className="sub-menu">
+              <li><a className="link_name" href="#">Exams</a></li>
+              <li><a href="#">Grades</a></li>
+              <li><a href="#">Schedule</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i ><lord-icon
+                src="https://cdn.lordicon.com/qjuahhae.json"
+                trigger="morph"
+                colors="primary:#ffffff"
+                state="morph"
+                style="width:20px;height:20px">
+            </lord-icon></i>
+              <span className="link_name">Calendar</span>
+            </a>
+            <ul className="sub-menu blank">
+              <li><a className="link_name" href="#">Calendar</a></li>
+            </ul>
+          </li>
+       
+        
+          <li>
+        <div className="profile-details">
+          <div className="profile-content">
+           <i className="bx bx-user
+           "></i>
+          </div>
+         
+          <i className='bx bx-log-out' ></i>
+        </div>
+      </li>
+    </ul>
+      </div>
+      <section className="home-section">
+        <div className="home-content">
+          <i className='bx bx-menu' ></i>
+        </div>
+      <div className="main">
+        <div className="logo">
+         
+          <div className="ig">
+           
+            <img src="./images/profile.jpg" id="navbar" alt="" />
+          </div>
+          <div className="float" id="flow">
+            <div className="profile">
+              <img src="./images/profile.jpg" alt="" />
+              <h4>UserName</h4>
+            </div>
+            <hr />
+            <div className="ic">
+              <lord-icon
+                src="https://cdn.lordicon.com/osuxyevn.json"
+                trigger="hover"
+                
+                state="hover-1"
+                style="width:32px;height:32px">
+            </lord-icon>
+             <a href="home.html"> <p>Dashboard</p></a>
+            </div>
+            <div className="ic">
+            
+              <lord-icon
+                  src="https://cdn.lordicon.com/bhfjfgqz.json"
+                  trigger="boomerang"
+                  style="width:32px;height:32px">
+              </lord-icon>
+             <a href=""> <p>Edit Profile</p></a>
+            </div>
+            <div className="ic">
+              
+              <lord-icon
+                  src="https://cdn.lordicon.com/hwuyodym.json"
+                  trigger="hover"
+                  style="width:32px;height:32px">
+              </lord-icon>
+            <a href="">  <p>Privacy Settings</p></a>
+            </div>
+            <div className="ic">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA00lEQVR4nO2Wuw3CMBBAXwGUsAEdS/BZg4IJGIOOMAKruEUMAMwQGgYAGowsOZITxUG5JCckeNI1lnPPtuzLQZ4BsAOugBVGCiQ+V5SkgcAWwuWKkvpJU+TMg51FyVbTFPspz1/kWAMT8py6OLoncANmwdgQMG2LrI87sAzG+12JLPACNnU+KnKs+Vj3QE8iklQGA4w0RBa4AGMN0VlDZCRHd9C6DGrX+yse7EOrBK20imoZP/jjS/0E12BIWfgclc1Jm+3Wtkrkmj4ny3YmidIG8g1EWe/xhnGWaAAAAABJRU5ErkJggg==">
+              <a href="login.html"><p>Logout</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+<div className="attendanceHead">
+  <h1>
+    Attendance List
+  </h1>
+  <section className="main">
+  <section className="attendance">
+    <div className="attendance-list">
+      <table className="table">
+        <thead>
+          <tr>
+            <th>S.no</th>
+            <th>Subject</th>
+            <th>Present</th>
+            <th>Absent</th>
+            <th>Total</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>06</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>Hindi</td>
+           
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+
+           
+           
+          </tr>
+       
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>
+</section>
+</div>
+   
+      <script>
+        let arrow = document.querySelectorAll(".arrow");
+        for (var i = 0; i < arrow.length; i++) {
+          arrow[i].addEventListener("click", (e)=>{
+         let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+         arrowParent.classNameList.toggle("showMenu");
+          });
+        }
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+        console.log(sidebarBtn);
+        sidebarBtn.addEventListener("click", ()=>{
+          sidebar.classNameList.toggle("close");
+        });
+        </script>
+
+        <script src="js/nav.js"></script>
+</body>
+</html>

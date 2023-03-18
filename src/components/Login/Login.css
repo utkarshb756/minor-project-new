@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+   background-image: url(../../images/bg-image.png);
+   background-color: rgba(242, 242, 242, 0.5);
+       background-size: 1000px;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+  }
+  .wrapper
+  {
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    scale: 1.2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .login{
+    border-top-left-radius: 80px 80px;
+  }
+  .skoolForce
+  {
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+   
+  }
+  .container
+  {
+    margin-top: -40px;
+  }
+  h1 {
+    font-weight: 600;
+    color: #3f3f3f;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+   button[type="button"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 20px 14px;
+  }
+   button[type="button"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 20px 14px;
+  }
+  .btn button:hover {
+    background-color: #87CEFA;
+  }
+  form {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #3f3f3f;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  button[type="submit"] {
+  
+   background-color: black;
+      width:90%;
+      color: white;
+      padding: 0.8rem 2.3rem;
+      box-shadow: 5px 5px 7px 0px ;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 0.5s;
+      font-weight: 500;
+      position: relative;
+      z-index: 1;
+      border:none;
+  }
+  button::before {
+      content: "";
+      position: absolute;
+      background-color: rgb(160, 160, 173);
+      top: 0;
+      left : 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: all 0.8s;
+    }
+    button:hover::before {
+      transform: scaleX(1);
+    }
+    button:hover {
+      
+      color: black;
+    }
+  
+  button[type="submit"]:hover{
+    background-color:  #222c38;
+  }
+  select {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1E90FF;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px 14px;
+    appearance: none;
+    outline: none;
+    text-align: center;
+  }
+  
+  option {
+    background-color: #ffffff;
+    color: #3f3f3f;
+  }
+  .usertype
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .userTypeHead{
+    font-size: 15px;
+    margin-top: 27px;
+  
+  }
+  
+  .bg{
+  
+    margin-top: 109px;
+    width: 400px;
+    height: 422px;
+    border-bottom-right-radius: 80px 80px;
+  }
+  .left-section{
+    margin-top: 100px;
+  }
+
+  .loginLogoDiv{
+display: flex;
+flex-direction: row;
+  }
+
+  .loginlogo
+  {
+    height: 50px;
+    width: 50px;
+  }
